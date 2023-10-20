@@ -33,7 +33,7 @@ main{
 }
 
 nav > .shopimg{
-    background-image: url(shop.png);
+    background-image: url(images/shop.png);
     background-repeat:no-repeat ;
     background-size: 24px;
     width: 35px;
@@ -91,7 +91,7 @@ flex-direction:column ;
 
 }
 .handmadimg{
-    background-image: url(Rectangle-YZ9P6kWjMnUBNL6W.avif);
+    background-image: url(images/Rectangle-YZ9P6kWjMnUBNL6W.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -232,7 +232,7 @@ flex-direction:column ;
 .Img2{
     position: relative;
     top: 50px;
-    background-image: url(Untitled-AzGRJwMK6BHxZypJ.avif);
+    background-image: url(images/Untitled-AzGRJwMK6BHxZypJ.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover ;
@@ -276,7 +276,7 @@ flex-direction:column ;
     margin-left: 28px;
 }
 .foto1{
-    background-image: url(Rectangle-AVLnvkgy1guy1MK4.avif);
+    background-image: url(images/Rectangle-AVLnvkgy1guy1MK4.avif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 46%;
@@ -288,7 +288,7 @@ flex-direction:column ;
     cursor: zoom-in;   
 }
 .foto2{
-    background-image: url(Rectangle-dJo73kDbN1i6M7yx.avif);
+    background-image: url(images/Rectangle-dJo73kDbN1i6M7yx.avif);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 0.3s ease-in-out;
@@ -376,7 +376,7 @@ flex-direction:column ;
 .Img3{
     position: relative;
     top: 180px;
-    background-image: url(Frame-AGBpDkZaG5cRpbaw.avif);
+    background-image: url(images/Frame-AGBpDkZaG5cRpbaw.avif);
     background-repeat: no-repeat;
     
     background-position: center;
@@ -439,7 +439,7 @@ h1{
     justify-content: space-around;
 }
 .pic1{
-    background-image: url(mm-YBgqvl9QloTBK3BL.avif);
+    background-image: url(images/mm-YBgqvl9QloTBK3BL.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -449,7 +449,7 @@ h1{
     box-shadow: 0px 3px 3px gray ;
 }
 .pic2{
-    background-image: url(gg-mk37Q8gargCeBpom.avif);
+    background-image: url(images/gg-mk37Q8gargCeBpom.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -460,7 +460,7 @@ h1{
 
 }
 .pic3{
-    background-image: url(pp-Y4LyMOXgyWUGR3qZ.avif);
+    background-image: url(images/pp-Y4LyMOXgyWUGR3qZ.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
