@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    z-index: 2;
+
+}
+@media screen and (max-device-width: 768px) and (min-device-width: 1024px) {
+    .media1{
+        display: flex;
+        width: 10px;
+    }
+    
+    .container{
+      width: 80%;
+    }
+    .container li{
+      width: 80px;
+    }
+}
+
+main{
+    z-index: 2;
+}
+
+nav > .shopimg{
+    background-image: url(shop.png);
+    background-repeat:no-repeat ;
+    background-size: 24px;
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-right: 110px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 5px ;
+    
+}
+
+.container{
+    margin-right: 35px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 19px;
+    
+}
+.container > h2{
+    flex-grow: 10;
+    color: black;
+    padding-left: 40px;
+}
+li{
+    width: 8%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-grow: -1;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.sun{
+    display: none;
+}
+ul li .new:hover{
+display: block;
+}
+
+
+.containerImg1{
+display: flex;
+flex-direction:column ;
+
+}
+.handmadimg{
+    background-image: url(Rectangle-YZ9P6kWjMnUBNL6W.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+}
+.contenuimg{
+    text-align: center;
+    position: relative;
+    bottom: 450px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contenuimg h1{
+    font-size: 95px;
+    width: 100%;
+    color: white;
+    font-weight: normal;
+}
+.contenuimg > p{
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+.contenuimg > a{
+    background-color: white;
+    border: solid;
+    border: none;
+    width: 150px;
+    color:rgb(57, 57, 73);
+    padding: 13px;
+    margin-left: 600px;
+    margin-top: 35px;
+    
+    
+}
+.Ourbestse{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(52, 52, 88);
+}
+.Ourbestse > h3{
+    font-size: 65px;
+    position: relative;
+    bottom: 190px;
+}
+/*.containerVas{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+}
+.imgVases{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.imgVases > img{
+    width: 300px;
+    height: 300px;
+}
+.imgVases > .image{
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+}*/
+.containerJ{
+    position: relative;
+    bottom: 40px;
+}
+.ayman{
+    margin-left: 18px;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+}
+.a1, .a2, .a3, .a4{
+    transition: all 0.3s ease-in-out;
+    
+    color: rgb(52, 52, 88);
+    font-size: 24px;
+    text-align: center;
+}
+.a1:hover, .a2:hover, .a3:hover, .a4:hover{
+    transform: scale(1.03);
+    cursor: zoom-in;
+}
+.ayman img{
+    width: 90%;
+    
+}
+/*.a1, .a2{
+    color: rgb(52, 52, 88);
+    font-size: 20px;
+    text-align: center;
+}/*
+.a h3 p{
+    color: rgb(52, 52, 88);
+    font-size: 20px;
+    text-align: center;
+    margin: 8px;
+*/
+
+
+.buynow{
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    
+}
+.buynow > a{
+    text-decoration: none;
+    border: solid 2px;
+    color: rgb(52, 52, 88);
+    margin: 30px;
+    padding: 14px;
+    width: 150px;
+   
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+
+}
+
+.buynow > a:hover{
+    background-color: rgb(52, 52, 88) ;
+    color: white;
+}
+.containerImg2{
+    display: flex;
+    flex-direction: column;
+}
+.Img2{
+    position: relative;
+    top: 50px;
+    background-image: url(Untitled-AzGRJwMK6BHxZypJ.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    width: 100%;
+    height: 650px;
+}
+.contenuimg2{
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    bottom: 450px;
+}
+.contenuimg2 h1{
+    font-size: 100px;
+    width: 100%;
+    color: white;
+    font-weight: normal;
+}
+.contenuimg2 > p{
+    font-size: 25px;
+    color: white;
+}
+.contenuimg2 > a{
+    background-color: white;
+    border: solid;
+    border: none;
+    width:150px ;
+    color:rgb(57, 57, 73);
+    padding: 13px;
+    position: relative;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 600px;
+}
+.twofoto{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 28px;
+}
+.foto1{
+    background-image: url(Rectangle-AVLnvkgy1guy1MK4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 46%;
+    height: 350px;
+    transition: all 0.3s ease-in-out;
+}
+.foto1:hover{
+    transform: scale(1.01);
+    cursor: zoom-in;   
+}
+.foto2{
+    background-image: url(Rectangle-dJo73kDbN1i6M7yx.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+
+    width: 46%;
+    height: 350px;
+}
+.foto2:hover{
+    transform: scale(1.01);
+    cursor: zoom-in;   
+}
+.movwrit1 {
+     color: rgb(52, 52, 88);
+
+}
+.movwrit1 > h2{
+    position: relative;
+    top: 350px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: normal;
+}
+.movwrit1 > h3{
+    position: relative;
+    top: 370px;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+.movwrit1 > a{
+    background-color: white;
+    border: solid 2px rgb(57, 57, 73);
+    width:150px ;
+    color:rgb(57, 57, 73);
+    padding: 13px;
+    position: relative;
+    top: 398px;
+    display: flex;
+    justify-content: center;
+}
+.movwrit1 > a:hover{
+    background-color: rgb(52, 52, 88) ;
+    color: white;
+}
+
+.movwrit2 {
+    color: rgb(52, 52, 88);
+
+}
+.movwrit2 > h2{
+   position: relative;
+   top: 350px;
+   font-size: 30px;
+   margin-top: 25px;
+   font-weight: normal;
+}
+.movwrit2 > h3{
+   position: relative;
+   top: 370px;
+   font-size: 24px;
+   font-weight: normal;
+
+}
+.movwrit2 > a{
+   background-color: white;
+   border: solid 2px rgb(57, 57, 73);
+   width:150px ;
+   color:rgb(57, 57, 73);
+   padding: 13px;
+   position: relative;
+   top: 398px;
+   display: flex;
+   justify-content: center;
+}
+.movwrit2 > a:hover{
+   background-color: rgb(52, 52, 88) ;
+   color: white;
+}
+.containerImg3{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 50px;
+}
+.Img3{
+    position: relative;
+    top: 180px;
+    background-image: url(Frame-AGBpDkZaG5cRpbaw.avif);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    width: 100%;
+    height: 750px;
+}
+.contenuimg3{
+   position: relative;
+   bottom: 350px;
+   text-align: center
+}
+.contenuimg3 h1{
+    font-size: 90px;
+    width: 100%;
+    color: white;
+    font-weight: normal;
+}
+.contenuimg3 > input{
+    width: 350px;
+    height: 60px;
+    opacity: 50%;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+}
+.contenuimg3 > a{
+    background-color: white;
+    border: solid;
+    border: none;
+    width:150px ;
+    color:rgb(57, 57, 73);
+    padding: 13px;
+    position: relative;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 600px;
+}
+.containerfolo{
+    width: 100%;
+   
+}
+.follow {
+    text-align: center;
+    margin: 10px;
+    color:rgb(57, 57, 73);
+    font-size: 40px;
+    position: relative;
+    bottom: 100px ;
+    
+}
+h1{
+    font-weight: normal;
+}
+.threfoto{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.pic1{
+    background-image: url(mm-YBgqvl9QloTBK3BL.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 3px gray ;
+}
+.pic2{
+    background-image: url(gg-mk37Q8gargCeBpom.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 3px gray ;
+
+}
+.pic3{
+    background-image: url(pp-Y4LyMOXgyWUGR3qZ.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 3px gray ;
+
+}
+.pic1:hover, .pic2:hover, .pic3:hover{
+    transform: scale(1.01);
+    cursor: zoom-in;   
+}
+.minalink{
+    
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    
+}
+.minalink a{
+    color:rgb(57, 57, 73);
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+    top: 80px;
+}
+footer{
+    
+    background-color: rgb(238, 221, 221);
+    height: 235px;
+}
+.str1{
+    display: flex;
+    width: 90%;
+    margin: 0px;
+    justify-content: space-between;
+    justify-content: flex-end;
+
+
+}
+.str1 > img{
+height: 18px;
+width: 66px;
+margin-top: 81px;
+margin-right: 700px; 
+
+   
+}
+.str1 > a{
+    text-decoration: underline;
+    color:rgb(57, 57, 73);
+    margin: 16px;
+    margin-top: 80px;
+    
+
+}
+.str2 > img{
+margin: 30px;
+margin-left: 45px;
+}
+
+
+
+
+
+
+/* <div  class="containerVas">
+
+    <div class="imgVases">
+        <img src="Rectangle-AQE0LkVlnZuql51v.avif" alt="" srcset="">
+        <img src="Rectangle-A3QnLXpRVnfXy4bK.avif" alt="" srcset="">
+        <img src="Rectangle-YKb0ekr18NtRgKPB.avif" alt="" srcset="">
+        <img src="Rectangle-mv03n67VzMHgx3z7.avif" alt="" srcset="">
+    </div>
+    <div class="phras1vas">
+        <h2>'Candy' Flowerpot </h2>
+        <h2>'Drop' Vase</h2>
+        <h2>'Wave' Vase</h2>
+        <h2>'Sun' Vase</h2>
+    </div>
+    <div class="phras2vas">
+        <h3 class="doler">$59.99</h3>
+        <h3 class="doler">$49.99</h3>
+        <h3 class="doler">$69.99</h3>
+        <h3 class="doler">$49.99</h3>
+
+    </div>
+</div>*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
